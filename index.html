@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House Website</title>
+    <!-- Manrope Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Bebas+Neue&family=Bitcount+Prop+Single+Ink:wght@100..900&family=Bungee&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Manrope:wght@200..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+US+Modern:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Font awesomeCDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style>
+        * {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="grid grid-cols-1 md:grid-cols-2  container mx-auto pt-[68px] ">
+        <div class="banner-left">
+            <h2 class="text-[80px] font-bold">It's good <br>
+                tea time at The <br> Tea House</h2>
+            <p class="text-[#777777] my-[30px]">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To
+                Your Taste Buds.</p>
+            <button
+                class="py-3 px-5 rounded-md font-semibold text-white  bg-linear-to-r from-[#FF8938] to-[#FF0000]">Explore
+                More <i class="fa-solid fa-arrow-right -rotate-45 inline-block"></i></button>
+        </div>
+
+        <div class="banner-right flex justify-end items-end relative">
+            <img src="./images/banner.png" alt="">
+            <!-- rating div -->
+            <div
+                class="flex justify-center w-[255px] absolute bg-white  rounded-md shadow-2xl gap-4 bottom-[15px] left-[220px] py-[18px] px-[27px] items-center">
+                <img class="w-[48px] h-[48px] " src="./images/rating-star.png" alt="">
+                <div>
+                    <h2 class="font-bold text-black text-[30px]">5.00</h2>
+                    <p class="text-[#777777]">Trust Pilot Ratings</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section class="my-[130px]">
+        <div class="featured-section-header text-center max-w-[65%] mx-auto">
+            <h2 class="text-[45px] font-semibold">Our Featured Products</h2>
+            <p class="text-[#777777] mb-[50px]">There are many variations of passages of Lorem Ipsum available, but the
+                majority have suffered alteration in some form, by injected humour, or randomised words which don't look
+                even slightly believable. </p>
+        </div>
+
+        <div class="featured-card-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  max-w-[71%] mx-auto gap-4">
+
+            <div
+                class="featured-card max-w-[267px] bg-linear-to-b from-[#F4F4F4] to-[#f4f4f475] p-[30px] rounded-xl text-center">
+                <img class="mb-[30px] mx-auto" src="./images/tea-1.png" alt="">
+                <h2 class="text-[25px] text-black mb-[10px]">Milk Tea</h2>
+                <p class="text-[16px] text-[#777777]">Creamer could be replaced by fresh milk</p>
+            </div>
+
+            <div
+                class="featured-card max-w-[267px] bg-linear-to-b from-[#F4F4F4] to-[#f4f4f475] p-[30px] rounded-xl text-center">
+                <img class="mb-[30px] mx-auto" src="./images/tea-1.png" alt="">
+                <h2 class="text-[25px] text-black mb-[10px]">Milk Tea</h2>
+                <p class="text-[16px] text-[#777777]">Creamer could be replaced by fresh milk</p>
+            </div>
+            <div
+                class="featured-card max-w-[267px] bg-linear-to-b from-[#F4F4F4] to-[#f4f4f475] p-[30px] rounded-xl text-center">
+                <img class="mb-[30px] mx-auto" src="./images/tea-1.png" alt="">
+                <h2 class="text-[25px] text-black mb-[10px]">Milk Tea</h2>
+                <p class="text-[16px] text-[#777777]">Creamer could be replaced by fresh milk</p>
+            </div>
+            <div
+                class="featured-card max-w-[267px] bg-linear-to-b from-[#F4F4F4] to-[#f4f4f475] p-[30px] rounded-xl text-center">
+                <img class="mb-[30px] mx-auto" src="./images/tea-1.png" alt="">
+                <h2 class="text-[25px] text-black mb-[10px]">Milk Tea</h2>
+                <p class="text-[16px] text-[#777777]">Creamer could be replaced by fresh milk</p>
+            </div>
+
+
+        </div>
+    </section>
+
+
+</body>
+
+</html>
